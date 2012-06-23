@@ -12,6 +12,8 @@ CONTENTS OF THIS FILE
 REQUIREMENTS AND NOTES
 ----------------------
 
+
+  
 Drupal requires:
 
 - A web server. Apache (version 2.0 or greater) is recommended.
