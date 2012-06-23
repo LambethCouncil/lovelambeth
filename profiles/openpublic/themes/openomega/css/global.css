@@ -751,7 +751,7 @@ form#search-block-form .form-text {
 }
 
 form#search-block-form input.form-submit {
-	background: #fea466;
+	background: #9dc98a;
 	border: none;
 	cursor: pointer;
 	height: 30px;
@@ -782,7 +782,7 @@ form#search-block-form input.form-submit {
 }
 
 .navigation ul {
-  background: #feb266; 
+  background: #9dc98a; 
 	/*height: 50px;*/
 	position: relative;
 	display: block;
@@ -818,7 +818,7 @@ form#search-block-form input.form-submit {
 /******* Drop-down Navigation ******/
 
 .navigation li ul {
-	background: #feb266;
+	background: #9dc98a;
 	margin: 0;
 	padding: 5px;
 	width: 200px;
@@ -883,10 +883,10 @@ form#search-block-form input.form-submit {
   border:none;
   clear: both;
   min-height:500px;
-  background:#00436E url(../img/bg-home-rotator.png) repeat-x bottom;
-  -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.5);
-  -moz-box-shadow: 0 2px 8px rgba(0,0,0,.5);
-  box-shadow: 0 2px 8px rgba(0,0,0,.5);
+  background:#9dc98a;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 
 	.home-rotator-slide {
@@ -897,7 +897,8 @@ form#search-block-form input.form-submit {
 	}
 
 		.home-rotator-text-block {
-		  background: none;
+		  background-image: none!important;
+		  border:none!important;
 		  margin: 2%;
 		  padding: 0;
 		  width: 96%;
@@ -911,24 +912,23 @@ form#search-block-form input.form-submit {
 
 #home-top-read-more {
   margin: 0 auto 15px;
-  text-align: center;
+  text-align: left!important;
   width: 112px;
 }
 
 .home-top-intro {
   color: #6BCCF1;
-  font-family: Georgia,serif;
   font-style: normal;
   height: auto;
   line-height: 20px;
   margin: 0;
   font-size: 12px;
+  text-align: left!important;
 }
 
 .home-top-intro h2 {
 	text-indent:0;
   font-size: 28px;
-	font-family:Georgia, Times, serif;
 	text-transform:none;
 	padding:0;
 }
