@@ -235,10 +235,9 @@ ul.tabs li {
 
 /* Custom Global Styles */
 body {
-  background: #001B2C url("../img/bg-page.jpg") repeat-x top left ;
+  background: #fff;
 }
 #page {
-  background: url("../img/bg-page-splash.jpg") no-repeat scroll center top transparent;
   min-height: 800px;
 }
 
